@@ -4,8 +4,8 @@ title: Home
 order: 1
 ---
 
-## Hello.
+# Hello.
 
-### My name is Alonso.
+## My name is Alonso.
 
 Currently making a programming language and learning to draw, 3d art and how to blog.
