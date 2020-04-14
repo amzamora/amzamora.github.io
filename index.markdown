@@ -8,4 +8,8 @@ order: 1
 
 ## My name is Alonso.
 
-Currently making a programming language and learning to draw, 3d art and how to blog.
+I'm computer science student from Chile. Was a little burnout so suspended my studies and now been dedicating myself to things i'm interested in.
+
+Currently working on a programming language, learning how to draw and learning how to blog.
+
+Don't have a lot of things to show-off, but getting there.
