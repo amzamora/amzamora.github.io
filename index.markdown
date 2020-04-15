@@ -12,4 +12,4 @@ I'm computer science student from Chile. Was a little burnout so suspended my st
 
 Currently working on a programming language, learning how to draw and learning how to blog.
 
-Don't have a lot of things to show-off, but getting there.
+Don't have a lot of things to show-off yet, but getting there.
