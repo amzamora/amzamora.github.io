@@ -2,41 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "minima";
+@import
+  "base",
+  "header",
+  "home";
 
 /* Import noto serif */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-
-/* HOME
-   ==== */
-
-.home {
-  margin-top: 120px;
-  display: grid;
-  grid-column-gap: 10px;
-  grid-template-columns: repeat(5, 1fr);
-}
-
-.home h1,
-.home h2 {
-  font-family: 'Open Sans';
-}
-
-.home h1 {
-  font-size: 64px;
-}
-
-.home h2 {
-  font-size: 36px;
-}
-
-.home p {
-  font-family: 'Noto Serif', serif;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.home article {
-  grid-column-start: 2;
-  grid-column-end: 4;
-}

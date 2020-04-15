@@ -1,0 +1,40 @@
+.site-header {
+  width: 100%;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.site-header a {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-right: 36px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-header a:hover {
+  text-decoration: none;
+}
+
+.site-header .social-nav  {
+  display: flex;
+}
+
+.site-header .social-nav a {
+  margin-left: 36px;
+  margin-right: 0;
+}
+
+.site-header .social-nav svg {
+  height: 2rem;
+}
+
+.site-header .social-nav .twitter svg {
+  fill: #1da1f2;
+}

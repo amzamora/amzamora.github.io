@@ -9,6 +9,7 @@ bundle exec jekyll serve
 - [ ] Fix theme
    - [x] Fix headerbar
    - [x] Fix home page
+   - [x] Redo base
    - [ ] Make responsive
    - [ ] Fix blog page
    - [ ] Fix title
