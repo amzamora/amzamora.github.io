@@ -12,4 +12,4 @@ bundle exec jekyll serve
    - [x] Redo base
    - [ ] Make responsive
    - [ ] Fix blog page
-   - [ ] Fix title
+   - [x] Fix title
