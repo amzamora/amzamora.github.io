@@ -1,0 +1,16 @@
+.blog {
+  display: grid;
+  padding-top: 86.4px;
+  height: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 19px;
+}
+
+.blog .post-list  li {
+  list-style: none;
+}
+
+.blog .post-list {
+    grid-column-start: 6;
+    grid-column-end: 11;
+}

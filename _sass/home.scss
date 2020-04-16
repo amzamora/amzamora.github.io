@@ -1,12 +1,9 @@
 .home {
   height: 100%;
-  position: absolute;
-  top: 0;
   display: grid;
   align-items: center;
   grid-column-gap: 0.625rem;
   grid-template-columns: repeat(3, 1fr);
-  z-index: -1;
 }
 
 .home h1,
