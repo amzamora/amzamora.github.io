@@ -6,11 +6,25 @@
   grid-column-gap: 19px;
 }
 
-.blog .post-list  li {
-  list-style: none;
-}
-
-.blog .post-list {
+.post-list {
     grid-column-start: 6;
     grid-column-end: 11;
+}
+
+.post-list-item {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.post-list-item p {
+  font-size: 0.89rem;
+}
+
+.post-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-list-item h3 {
+  font-size: 1.5rem;
 }
