@@ -3,11 +3,12 @@
   display: grid;
   align-items: center;
   grid-column-gap: 0.625rem;
+  color: $primary-text-color;
 }
 
 .home h1,
 .home h2 {
-  font-family: 'Open Sans';
+  font-family: $sans-serif-font;
 }
 
 .home h1 {
@@ -21,7 +22,7 @@
 }
 
 .home p {
-  font-family: 'Noto Serif', serif;
+  font-family: $serif-font, serif;
   font-size: 1rem;
   text-align: justify;
 }
