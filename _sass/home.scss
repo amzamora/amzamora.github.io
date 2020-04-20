@@ -3,7 +3,6 @@
   display: grid;
   align-items: center;
   grid-column-gap: 0.625rem;
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .home h1,
@@ -27,9 +26,15 @@
   text-align: justify;
 }
 
-.home article {
-  position: relative;
-  left: -50%;
-  grid-column-start: 2;
-  grid-column-end: 3;
+
+@media only screen and (min-width: 1050px) {
+  .home {
+      grid-template-columns: repeat(12, 1fr);
+
+      article {
+        grid-column-start: 3;
+        grid-column-end: 7;
+      }
+  }
+
 }
