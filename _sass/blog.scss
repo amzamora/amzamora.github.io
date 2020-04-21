@@ -13,10 +13,11 @@
 
 .post-list-item {
   list-style: none;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .post-list-item p {
+  margin-top: 0.5rem;
   text-align: justify;
   font-size: 0.89rem;
 }
@@ -28,4 +29,14 @@
 
 .post-list-item h3 {
   font-size: 1.5rem;
+  margin-bottom: 0;
+
+  a {
+    font-family: $merrieweather-sans-font;
+  }
+}
+
+.post-meta {
+  font-size: 0.7rem;
+  color: #555;
 }
