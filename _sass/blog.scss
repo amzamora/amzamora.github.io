@@ -2,18 +2,20 @@
   display: grid;
   padding-top: $header-height;
   height: 100%;
-  grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 19px;
 }
 
 .post-list {
-    grid-column-start: 6;
-    grid-column-end: 11;
+  margin: 0;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+  max-width: 600px;
+  float: right;
 }
 
 .post-list-item {
   list-style: none;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 .post-list-item p {
@@ -39,4 +41,20 @@
 .post-meta {
   font-size: 0.7rem;
   color: #555;
+}
+
+@media only screen and (min-width: 1050px) {
+  .blog {
+      grid-template-columns: repeat(12, 1fr);
+
+      .post-list {
+        grid-column-start: 6;
+        grid-column-end: 11;
+        max-width: initial;
+      }
+
+      .post-list-item {
+        margin-bottom: 5rem;
+      }
+  }
 }
