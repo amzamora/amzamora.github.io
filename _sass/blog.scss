@@ -1,6 +1,6 @@
 .blog {
   display: grid;
-  padding-top: 86.4px;
+  padding-top: $header-height;
   height: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 19px;

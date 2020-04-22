@@ -1,14 +1,21 @@
 .site-header {
   width: 100%;
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding-left: 48px;
   padding-right: 48px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  height: $header-height;
   position: fixed;
+  display: flex;
+  align-items: center;
+
+  .wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
+
+
 
 .site-header a {
   font-family: $roboto-font;
