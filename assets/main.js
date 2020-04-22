@@ -8,6 +8,7 @@ function setHeaderStyle() {
         header.style.boxShadow = "initial";
 
     } else {
+        console.log(window.navigator.appName);
         header.style.backdropFilter = "blur(20px)";
         header.style.boxShadow = "0px 2px 2px rgba(0, 0, 0, 0.1)";
     }
