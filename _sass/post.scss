@@ -1,0 +1,22 @@
+.post-page {
+  padding-top: $header-height;
+  padding-left: 2.6rem;
+  padding-right: 2.6rem;
+
+  .wrapper {
+    max-width: 550px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .post-page {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+
+      .wrapper {
+        grid-column-start: 4;
+        grid-column-end: 10;
+      }
+  }
+}
