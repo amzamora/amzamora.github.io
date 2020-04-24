@@ -14,7 +14,7 @@ function setHeaderStyle() {
         if (CSS.supports("backdrop-filter", "blur(20px)")) {
             header.style.backdropFilter = "blur(20px)";
         } else {
-            header.style.backgroundColor = "white";
+            header.style.backgroundColor = "aliceblue";
         }
     }
 }
