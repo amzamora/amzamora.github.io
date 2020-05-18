@@ -8,8 +8,8 @@ order: 1
 
 ## My name is Alonso.
 
-I'm computer science student from Chile. Was a little burnout so suspended my studies and now been dedicating myself to things i'm interested in.
+I'm computer science student from Chile. I Was a little burnout so suspended my studies and now been dedicating myself to things I'm interested in.
 
-Currently working on a programming language, learning how to draw and learning how to blog.
+Currently working on a programming language, learning how to draw and how to blog.
 
 Don't have a lot of things to show-off yet, but getting there.
