@@ -6,10 +6,10 @@ bundle exec jekyll serve
 ```
 
 ## To Do
-- [ ] Fix theme
+- [x] Fix theme
    - [x] Fix headerbar
    - [x] Fix home page
    - [x] Redo base
-   - [ ] Make responsive
-   - [ ] Fix blog page
+   - [x] Make responsive
+   - [x] Fix blog page
    - [x] Fix title
