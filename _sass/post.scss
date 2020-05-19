@@ -7,6 +7,40 @@
     max-width: 550px;
     margin: auto;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $merrieweather-sans-font;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+
+  h4 {
+    margin-top: 1.5rem;
+  }
+
+  p {
+    font-family: 'Open Sans';
+    color: #454545;
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+  }
 }
 
 @media only screen and (min-width: 1050px) {
@@ -15,12 +49,9 @@
       grid-template-columns: repeat(12, 1fr);
 
       .wrapper {
+        max-width: none;
         grid-column-start: 4;
         grid-column-end: 10;
-      }
-
-      #commento {
-        margin-top: 8rem;
       }
   }
 }
