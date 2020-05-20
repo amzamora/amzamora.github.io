@@ -21,6 +21,9 @@
   margin-top: 0.5rem;
   text-align: justify;
   font-size: 0.89rem;
+  font-family: $open-sans;
+  letter-spacing: 0.01rem;
+  line-height: 1.5rem;
 }
 
 .post-link {
@@ -33,7 +36,8 @@
   margin-bottom: 0;
 
   a {
-    font-family: $merrieweather-sans-font;
+    font-family: $open-sans;
+    font-weight: bold;
   }
 }
 
