@@ -42,7 +42,7 @@
   color: #555;
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1200px) {
   .blog {
       grid-template-columns: repeat(12, 1fr);
 
@@ -50,11 +50,22 @@
         grid-column-start: 6;
         grid-column-end: 11;
         padding: 0;
-        max-width: initial;
+        max-width: none;
+        min-width: 0;
+        width: 100%;
       }
 
       .post-list-item {
         margin-bottom: 5rem;
+      }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .blog {
+      .post-list {
+        grid-column-start: 6;
+        grid-column-end: 10;
       }
   }
 }

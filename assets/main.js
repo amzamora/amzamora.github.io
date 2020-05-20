@@ -2,14 +2,17 @@ document.addEventListener("scroll", setHeaderStyle);
 
 function setHeaderStyle() {
     let header = document.getElementsByClassName("site-header")[0];
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
 
-    if (document.documentElement.scrollTop === 0) {
-        ///header.style.backgroundColor = "";
-        //header.style.boxShadow = "";
-        //header.style.height = "";
+    if (vw < 1200) {
+        if (document.documentElement.scrollTop === 0) {
+             header.style.backgroundColor = "";
+             header.style.boxShadow = "";
 
-    } else {
-        //header.style.boxShadow = "0px 2px 2px rgba(0, 0, 0, 0.1)";
-        //header.style.backgroundColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
+        } else {
+            //header.style.backdropFilter = "blur(20px)";
+            header.style.boxShadow = "0px 1px 1px rgba(0, 0, 0, 0.1)";
+            header.style.backgroundColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
+        }
     }
 }
