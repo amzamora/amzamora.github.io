@@ -43,15 +43,26 @@
   }
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1200px) {
   .post-page {
       display: grid;
       grid-template-columns: repeat(12, 1fr);
 
       .wrapper {
         max-width: none;
+        width: 100%;
+        min-width: 0;
         grid-column-start: 4;
         grid-column-end: 10;
+      }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .post-page {
+
+      .wrapper {
+        grid-column-start: 5;
       }
   }
 }
