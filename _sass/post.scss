@@ -2,7 +2,7 @@
   padding-top: $header-height;
   padding-left: 2.6rem;
   padding-right: 2.6rem;
-  font-family: $open-sans;
+  font-family: $noto-serif;
 
   .wrapper {
     max-width: 550px;
@@ -16,31 +16,32 @@
   h5,
   h6 {
     font-weight: bold;
-    // font-family: $merrieweather-sans-font;
+    font-family: $roboto;
   }
 
   h1 {
-    font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 4rem;
+    margin-bottom: 0.55556rem;
   }
 
-  h2 {
-    margin-top: 2.5rem;
-  }
+  h2     {font-size: 2rem;}
+  p + h2 {margin-top: 2.5rem;}
 
-  h3 {
-    font-size: 1.2rem;
-    margin-top: 2rem;
-  }
+  h3     {font-size: 1.5rem;}
+  p + h3 {margin-top: 2rem;}
 
-  h4 {
-    font-style: italic;
-    margin-top: 1.5rem;
+  h4     {font-style: italic;}
+  p + h4 {margin-top: 1.5rem;}
+
+  .post-meta {
+    font-size: 0.88889rem;
+    color: $meta-text-color;
+    margin-bottom: 1rem;
   }
 
   p {
-    color: #454545;
-    line-height: 1.8rem;
+    color: $secondary-text-color;
+    line-height: 1.5556rem;
     letter-spacing: 0.01rem;
   }
 }
