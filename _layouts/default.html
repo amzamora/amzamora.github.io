@@ -4,14 +4,11 @@
   {%- include head.html -%}
 
   <body>
-    <div class="site-wrapper">
       {%- include header.html -%}
 
       {{ content }}
-
-      <script src="{{ "/assets/main.js" | relative_url }}"></script>
-      <script>setHeaderStyle()</script>
-    </div>
+    <script src="{{ "/assets/main.js" | relative_url }}"></script>
+    <script>setHeaderStyle()</script>
   </body>
 
 </html>

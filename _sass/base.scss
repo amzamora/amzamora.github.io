@@ -38,3 +38,10 @@ img {
   height: 100%;
   width: 100%;
 }
+
+pre {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  font-size: 0.8rem !important;
+}

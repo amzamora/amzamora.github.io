@@ -4,6 +4,11 @@
   padding-right: 2.6rem;
   font-family: $noto-serif;
 
+  @media only screen and (max-width: 500px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .wrapper {
     max-width: 550px;
     margin: auto;
@@ -22,12 +27,28 @@
   h1 {
     font-size: 4rem;
     margin-bottom: 0.55556rem;
+
+    @media only screen and (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
 
-  h2     {font-size: 2rem;}
+  h2     {
+    font-size: 2rem;
+
+    @media only screen and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+  }
   p + h2 {margin-top: 2.5rem;}
 
-  h3     {font-size: 1.5rem;}
+  h3     {
+    font-size: 1.5rem;
+
+    @media only screen and (max-width: 500px) {
+      font-size: 1.2rem;
+    }
+  }
   p + h3 {margin-top: 2rem;}
 
   h4     {font-style: italic;}

@@ -168,7 +168,7 @@ int main() {
 
 Then when running the program the output is:
 
-```
+```c++
 (2.0, 3.5)
 (0.5, 4.1, 1.0)
 ```
@@ -257,7 +257,7 @@ main = do
 
 The output of the program is:
 
-```
+```haskell
 706.85834
 800
 ```
