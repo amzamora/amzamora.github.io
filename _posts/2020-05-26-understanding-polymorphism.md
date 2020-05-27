@@ -2,6 +2,13 @@
 layout: post
 title:  "Understanding polymorphism"
 ---
+
+<div style="background-color: lightblue; border: 1px solid skyblue; padding: 0px 10px; border-radius: 5px;">
+	<p>
+	This is a draft. So it probably will change in the future.
+	</P>
+</div>
+
 <!-- # Understanding polymorphism -->
 While designing my programming language I realized I didn't have a clear idea of what polymorphism is. Just a vague intuition. I didn't understand well the different forms of it and even less how to explain it to someone else. I had a lot of questions. Like what exactly is polymorphism? How many techniques they are? How they relate to each other?
 
@@ -331,4 +338,4 @@ In summary, polymorphism is a vast word, it covers a lot. But essentially it ser
   - Ad Hoc.
   - Same variable (or collection) can contain different types.
 
-It's important to know that even if it appears you can do more with subtyping it doesn't mean it's better. They are a lot of factors  to take into account like implementation, ease of use, learning curve, reliability, how these techniques interact with each other, and probably other factors I can't think of right now. 
+It's important to know that even if it appears you can do more with subtyping it doesn't mean it's better. They are a lot of factors  to take into account like implementation, ease of use, learning curve, reliability, how these techniques interact with each other, and probably other factors I can't think of right now.
