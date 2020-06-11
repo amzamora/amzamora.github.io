@@ -3,16 +3,11 @@ layout: post
 title:  "Understanding polymorphism"
 ---
 
-<div style="background-color: lightblue; border: 1px solid skyblue; padding: 0px 10px; border-radius: 5px;">
-	<p>
-	This is a draft. So it probably will change in the future.
-	</P>
-</div>
-
-<!-- # Understanding polymorphism -->
 While designing my programming language I realized I didn't have a clear idea of what polymorphism is. Just a vague intuition. I didn't understand well the different forms of it and even less how to explain it to someone else. I had a lot of questions. Like what exactly is polymorphism? How many techniques they are? How they relate to each other?
 
-This post was written in an effort to answers these questions, to get a better understanding and maybe help someone else. Also, I think it's just fair to warn you that I am not an expert on the topic. I'm just an undergrad student trying to make sense of polymorphism. So consider you warned!
+This post was written in an effort to answers these questions, to get a better understanding and maybe, help someone else.
+
+Before beginning it's important I warn you I am just an undergrad student trying to make sense of polymorphism. And probably there are some errors across this post. It's a really difficult topic and it has a lot of technicalities. I tried my best to make something good that makes sense, but I already invested almost two months in this and it's time to move on. (Also this is the first post I write ever)
 
 Well, so people tend to agree that there are at least two types of polymorphism. These are parametric polymorphism and ad hoc polymorphism. This post first addresses these two types and then the ones that can't be classified as just one or the other.
 
