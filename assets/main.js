@@ -1,4 +1,5 @@
 document.addEventListener("scroll", setHeaderStyle);
+document.addEventListener("load", setHeaderStyle);
 
 function setHeaderStyle() {
     let header = document.getElementsByClassName("site-header")[0];

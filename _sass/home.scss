@@ -13,11 +13,6 @@
   @media only screen and (max-width: 500px) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-
-    article {
-      position: relative;
-      top: -2rem;
-    }
   }
 }
 
@@ -45,6 +40,12 @@
   font-size: 1rem;
 }
 
+.home img {
+  border: 5px solid $primary-text-color;
+  border-radius: 3px;
+  margin-top: 1.5rem;
+}
+
 @media only screen and (min-width: 1200px) {
   .home {
       align-items: center;
@@ -58,6 +59,12 @@
         min-width: 0;
         width: 100%;
       }
+
+      img {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        margin-top: 0;
+      }
   }
 }
 
@@ -65,6 +72,11 @@
     .home {
         article {
             grid-column-end: 6;
+        }
+
+        img {
+          grid-column-start: 7;
+          grid-column-end: 10;
         }
     }
 }

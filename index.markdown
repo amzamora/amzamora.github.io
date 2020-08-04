@@ -8,7 +8,7 @@ order: 1
 
 ## My name is Alonso.
 
-I'm a computer science student from Chile.
+I'm a Computer Science student from Chile.
 
 <!-- Currently working on a programming language 🔨, working on <a href="https://sysmic.cl/" target="_blank">Sysmic</a> 🤖 and learning how to draw ✏ and how to blog 📝.-->
 Currently:

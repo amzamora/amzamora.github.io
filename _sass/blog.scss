@@ -26,7 +26,6 @@
 .post-list-item p {
   margin-top: 0;
   text-align: justify;
-  font-family: $noto-serif;
 }
 
 .post-link {
@@ -54,20 +53,24 @@
 
 @media only screen and (min-width: 1200px) {
   .blog {
-      grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
 
-      .post-list {
-        grid-column-start: 6;
-        grid-column-end: 11;
-        padding: 0;
-        max-width: none;
-        min-width: 0;
-        width: 100%;
-      }
+    .post-list {
+      grid-column-start: 6;
+      grid-column-end: 11;
+      padding: 0;
+      max-width: none;
+      min-width: 0;
+      width: 100%;
+    }
 
-      .post-list-item {
-        margin-bottom: 5rem;
-      }
+    .post-list-item {
+      margin-bottom: 5rem;
+    }
+
+    .post-list-item h3 {
+      font-size: 3.5rem;
+    }
   }
 }
 
