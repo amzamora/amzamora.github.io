@@ -49,7 +49,10 @@
       font-size: 1.2rem;
     }
   }
-  p + h3 {margin-top: 2rem;}
+  p + h3,
+  ul + h3 {
+    margin-top: 2rem;
+  }
 
   h4     {font-style: italic;}
   p + h4 {margin-top: 1.5rem;}

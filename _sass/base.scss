@@ -34,6 +34,10 @@ img {
   vertical-align: middle;
 }
 
+a {
+  color: #1e90ff;
+}
+
 .site-wrapper {
   overflow-x: hidden;
   height: 100%;
@@ -45,4 +49,8 @@ pre {
   border: 1px solid #e8e3c1;
   overflow: auto;
   font-size: 0.8rem !important;
+}
+
+#markdown-toc li {
+  list-style: none;
 }
