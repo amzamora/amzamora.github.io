@@ -13,7 +13,7 @@ I'm a Computer Science student from Chile.
 <!-- Currently working on a programming language 🔨, working on <a href="https://sysmic.cl/" target="_blank">Sysmic</a> 🤖 and learning how to draw ✏ and how to blog 📝.-->
 Currently:
 - Working on a programming language 🔨
-- Working on  <a href="https://sysmic.cl/" target="_blank">Sysmic</a> 🤖
+- Working on  <a href="https://sysmic.gitlab.io/" target="_blank">Sysmic</a> 🤖
 - Learning how to draw ✏️
 - Learning how to blog 📙
 
