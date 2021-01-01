@@ -235,7 +235,7 @@ Things in this category can't be classified exactly as parametric or ad hoc. The
 
 ### Type Classes
 
-A type class consists of a set of functions that should be implemented for a type. A type class could
+A type class consists of a set of functions that should be implemented for a type.
 
 Let's see an example. (In Haskell of course)
 
